@@ -5,8 +5,9 @@
 
 tech stack:
 ```
-Node.js (v18 or later)
+node.js (v18 or later)
 npm (comes with Node.js)
+docker
 golang
 ```
 
@@ -33,4 +34,33 @@ node app.js
 go to
 ```
 http://localhost:8000
+```
+---
+
+
+#### **Soal 2 - Buat producer dan consumer sederhana**
+Make sure you has docker, and go to
+```
+cd soal-2-kafka-producer-consumer
+```
+
+#### **Run Kafka Docker Container**
+```
+./kafka-service.sh start
+```
+
+#### **Run Producer**
+```
+./producer/producer
+```
+
+#### **Run Consumer**
+```
+./consumer/consumer
+```
+
+#### **Soal 3**
+Jawaban ada di directory soal-3-repository-conflict-strategy
+```
+cd soal-3-repository-conflict-strategy
 ```
