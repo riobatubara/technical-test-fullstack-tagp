@@ -19,6 +19,11 @@ cd technical-test-fullstack-tagp
 ---
 
 #### **Soal 1 - Buat grafik untuk penduduk Indonesia tahun 2024**
+Masuk ke directory
+```
+cd soal-1-indonesia-population-2024
+```
+
 #### **Dependencies Installation**
 ```
 npm install
@@ -26,7 +31,6 @@ npm install
 
 #### **How to Run**
 ```
-cd soal-1-indonesia-population-2024
 node app.js
 ```
 
@@ -39,7 +43,7 @@ http://localhost:8000
 
 
 #### **Soal 2 - Buat producer dan consumer sederhana**
-Make sure you has docker, and go to
+Pastikan docker terinstall, dan masuk ke directory
 ```
 cd soal-2-kafka-producer-consumer
 ```
